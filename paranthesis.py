@@ -1,6 +1,6 @@
+openingParanthesisList=['(','{','[']
+closingParanthesisList=[')','}',']']
 def checkBalance(expression):
-    openingParanthesisList=['(','{','[']
-    closingParanthesisList=[')','}',']']
     stack=[]
     for char in expression:
         if char in openingParanthesisList:
